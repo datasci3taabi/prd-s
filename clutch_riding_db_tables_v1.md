@@ -95,7 +95,6 @@ Stores per-vehicle daily clutch riding summaries. One row per vehicle per date, 
 
 | Column | Type | Description |
 |---|---|---|
-| day_id | UUID / PK | Unique identifier for this day-level record |
 | uniqueid | UUID / FK | Vehicle unique identifier |
 | date | Date | The calendar date this record represents |
 | total_cycles | Integer | Number of engine ON cycles driven on this date |
